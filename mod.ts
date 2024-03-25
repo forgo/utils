@@ -1,15 +1,5 @@
 // mod.ts
-/**
- * A module providing a function to greet people.
- *
- * @example
- * ```ts
- * import { greet } from "@forgo/utils";
- *
- * greet("World");
- * ```
- *
- * @module
- */
 
-export * from "./src/greet.ts";
+export * from "./src/cli/cli.ts";
+export * from "./src/enums/enums.ts";
+export * from "./src/validation/validation.ts";
